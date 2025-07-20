@@ -1,0 +1,23 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "Play a Card Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fieldmedic67/Cards.git"
+  },
+  "author": "Gavin Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fieldmedic67/Cards/issues"
+  },
+  "homepage": "https://github.com/Fieldmedic67/Cards#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
