@@ -1,0 +1,288 @@
+/* face down cards for player 1 */
+
+.player1FaceDownCards {
+    display: flex;
+    position: absolute;
+    top: 700px;
+    width: 300px;
+    height: 300px;
+    left:200px;
+}
+
+.p1faceDown1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.p1faceDown2 {
+    position: absolute;
+    top: 0px;    
+    left: 300px;
+    width: 50%;
+    height: auto;
+} 
+
+.p1faceDown3 {
+    position: absolute;
+    top: 0px;    
+    left: 500px;
+    width: 50%;
+    height: auto;
+} 
+
+/*face up cards for player 1 */
+
+.player1FaceUpCards {
+    display: flex;
+    position: absolute;
+    top: 680px;
+    width: 300px;
+    height: 300px;
+    left:200px;
+}
+
+.p1faceUp1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.p1faceUp2 {
+    position: absolute;
+    top: 0px;    
+    left: 300px;
+    width: 50%;
+    height: auto;
+} 
+
+.p1faceUp3 {
+    position: absolute;
+    top: 0px;    
+    left: 500px;
+    width: 50%;
+    height: auto;
+} 
+
+/* player 1 hand */
+
+.player1Hand {
+    display: flex;
+    position: absolute;
+    top: 680px;
+    width: 300px;
+    height: 300px;
+    left: 900px;
+}
+
+.p1hand1 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.p1hand2 {
+    position: absolute;
+    top: 0px;    
+    left: 150px;
+    width: 50%;
+    height: auto;
+} 
+
+.p1hand3 {
+    position: absolute;
+    top: 0px;    
+    left: 200px;
+    width: 50%;
+    height: auto;
+} 
+
+
+
+
+
+
+/* 
+Player 2's cards
+
+face down cards for player 2 */
+
+.player2FaceDownCards {
+    display: flex;
+    position:absolute;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    left:200px;
+}
+
+.p2faceDown1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.p2faceDown2 {
+    position: absolute;
+    top: 0px;    
+    left: 300px;
+    width: 50%;
+    height: auto;
+} 
+
+.p2faceDown3 {
+    position: absolute;
+    top: 0px;    
+    left: 500px;
+    width: 50%;
+    height: auto;
+} 
+
+/*face up cards for player 2 */
+
+.player2FaceUpCards {
+    display: flex;
+    position:absolute;
+    top: 20px;
+    width: 300px;
+    height: 300px;
+    left:200px;
+}
+
+.p2faceUp1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.p2faceUp2 {
+    position: absolute;
+    top: 0px;    
+    left: 300px;
+    width: 50%;
+    height: auto;
+} 
+
+.p2faceUp3 {
+    position: absolute;
+    top: 0px;    
+    left: 500px;
+    width: 50%;
+    height: auto;
+} 
+
+/* player 2's hand (cant see) */
+
+.player2Hand {
+    display: flex;
+    position:absolute;
+    top: 20px;
+    width: 300px;
+    height: 300px;
+    left:900px;
+}
+
+.p2hand1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.p2hand2 {
+    position: absolute;
+    top: 0px;    
+    left: 150px;
+    width: 50%;
+    height: auto;
+} 
+
+.p2hand3 {
+    position: absolute;
+    top: 0px;    
+    left: 200px;
+    width: 50%;
+    height: auto;
+} 
+
+
+
+
+/* the deck */
+
+
+.theDeck {
+    display: flex;
+    position: absolute;
+    top: 325px;
+    width: 300px;
+    height: 300px;
+    left:200px;
+}
+.deck1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.deck2 {
+    position: absolute;
+    top: 0px;    
+    left: 110px;
+    width: 50%;
+    height: auto;
+} 
+
+.deck3 {
+    position: absolute;
+    top: 0px;    
+    left: 120px;
+    width: 50%;
+    height: auto;
+}
+.deck4 {
+    position: absolute;
+    top: 0px;    
+    left: 130px;
+    width: 50%;
+    height: auto;
+} 
+.deck5 {
+    position: absolute;
+    top: 0px;    
+    left: 140px;
+    width: 50%;
+    height: auto;
+}  
+
+/* discard pile */
+
+.discardPile {
+    display: flex;
+    position: absolute;
+    top: 325px;
+    width: 300px;
+    height: 300px;
+    left:530px;
+}
+
+.discard1 {
+    position: absolute;
+    top: 0px;
+    left: 000px;
+    width: 50%;
+    height: auto; 
+}

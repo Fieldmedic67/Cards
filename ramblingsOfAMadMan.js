@@ -20,13 +20,14 @@
 
 //it's decided. I will be recreating 2/3/7/10. 8s are not power cards and jokers are not in play. 4 of a kind will burn the discard pile so that will have to be tracked.
 //i need to make a responser where a player 2 (bot) will play the lowest valid (non-power) card, if only power cards are playable it will use the following logic.
-//*the computer should always play multiple of ever card except for power or Aces. 
-//*if the player has player1FaceDown.length > 3 && discardPile.length > 7 play a "3." indexof(3) slice 3,1.
+//*the computer should always play multiple of every card except for power or Aces. 
+//*always play non-power cards if able to
+//*if the player has player1FaceDown.length == 3 && discardPile.length > 7 play a "3." indexof(3) slice 3,1.
 //*if discardPile.length > 3 && discard.Pile.length < 7 play a 2, if no 2s, play a 7. if no 2/7 then if > 3 play "3", if no 3 play 10.
 //*if player1FaceDown.length < 3 && discardPile > 2 play a "3".  
 //*if player1FaceDown.length < 3 && play a card >= "jack" if none exist, play a 7. if neither then play highest valid card. 
 //*if no special rules exist, always play >= topOfDiscardPile
-//*topOfDiscardPile = if (discardPile.length = 0) {0} else {indexof(discardPile.length - 1)}
+//*let topOfDiscardPile = if (discardPile.length = 0) {0} else {indexof(discardPile.length - 1)}
 //*if (topOfDiscardPile = 0) {display empty discard pile} else {display topOfDiscardPile}
 //* let Player1FaceUp = [player1FaceUp1,player1FaceUp2,player1FaceUp3] Player1FaceUp can decrease but can never increase and starts at 3
 //* let Player2FaceUp = [player2FaceUp1,player2FaceUp2,player2FaceUp3] Player2FaceUp can decrease but can never increase and starts at 3
