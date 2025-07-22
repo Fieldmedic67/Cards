@@ -1,7 +1,7 @@
 # Cards
 Play a Card Game
 2-3-7-10
-game made by my friends and I in highschool
+game made by me and my friends in highschool
 
 # Application Setup
 run "npm install" in the terminal
